@@ -1,0 +1,43 @@
+
+
+
+answer=(input(" what is your favorite programming language?"))
+answer=="python"
+if answer=="python":
+    print("You love python")
+else:
+    print("different choice")
+
+grade=int(input("score from 0-100:"))
+if grade>=90:
+    print("A")
+elif 80<=grade<=89:
+    print("B")
+elif 70<=grade<=79:
+    print("C")
+elif 60<= grade<=69:
+    print("D")
+else:
+    print("F")
+
+username=(input ("please provide your username to login"))
+if username== "admin":
+    print("Welcome admin") 
+else:
+    print("Try again that username is inncorrect")
+
+a= [1,2,3]
+b=[3,2,1]
+print(a==b)
+
+
+print=("This is a guessing game, you have to find the number that is form 1-1000:")
+one=(input("give me you first guess:"))
+if one==584:
+    print("you guessed correcly good job")
+elif one<584:
+    print( "guess higher")
+elif 900>=one>584:
+    print("guess lower")
+else:
+    print("you are way off")
