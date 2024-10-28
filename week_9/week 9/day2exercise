@@ -40,4 +40,4 @@ elif one<584:
 elif 900>=one>584:
     print("guess lower")
 else:
-    print("you are way off")
+    print("you are way")
