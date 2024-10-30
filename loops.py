@@ -77,9 +77,9 @@ list_of_names2=['thanos','iroman','thor','hulk']
 #         continue
 #     print(name)
     
-for name in list_of_names2:
-    if name=="hulk":
-        update="wonderwomen"
-        print(update)
-    else:
-        print(name)
+# for name in list_of_names2:
+#     if name=="hulk":
+#         update="wonderwomen"
+#         print(update)
+#     else:
+#         print(name)
