@@ -54,3 +54,32 @@
 #         break # it stop counting once it gets to the number 
 #     else:
 #         print(x)
+
+#challenge 
+
+list_of_name=['John','paul','george','ringo']
+#if the name is "george", print 'geroge was fpund!"
+#otherwise,print george was not found! and print out the other name using a loop
+list_of_names2=['thanos','iroman','thor','hulk']
+#loop thouhg the list_of_names2 an is the name is 'ironman' skip over it 
+#and print out the other names 
+
+# for name in list_of_name:
+#     if name=='george':
+#         print("george was found!")
+#     else:
+#         print ("george was not found!")
+#         print(name)
+
+
+# for name in list_of_names2: 
+#     if name=='iroman':
+#         continue
+#     print(name)
+    
+for name in list_of_names2:
+    if name=="hulk":
+        update="wonderwomen"
+        print(update)
+    else:
+        print(name)
