@@ -35,9 +35,10 @@ num2=int(input('please provided me with a ending number'))
 
 for x in range(num1,num2+1): 
      if x % 2==0:
-        if x>10:
-          print( "special even")
-     elif not x % 2==0:
-            if x<20:
-               print("special odd")
+         if x>10:
+          print( f"{x} is special even")
+     elif  x % 2!=0:
+         if x<20:
+            print(f"{x} is special odd")
+
 
