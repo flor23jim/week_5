@@ -54,5 +54,16 @@
 # Count Down: Use a while loop to count down from 20 to 0.
 # Output: Print each number
 
-for i in range (21,0):
-    print(i)
+# for i in range (21,0):
+#     print(i)
+
+
+the=[-2,-1,0,1,2]
+count1=0
+count2=0
+for vaule in the:
+    if (vaule>0):
+        count1=count1+1
+    else:
+        count2=count2+1
+print(vaule)
