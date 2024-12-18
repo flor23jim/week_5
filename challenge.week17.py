@@ -13,10 +13,10 @@ while tries<8:
         print("Your out of range")
     elif first > random_number:
         print("your guess is greater than the answer")
-        print(f"try a number between 0 and {random_number +15}")
+        print(f"try a number between 0 and {random_number-1}")
     elif first < random_number:
         print("your guess is less than the answer")
-        print(f"try a number between 100 and {random_number -5}")
+        print(f"try a number between 100 and {random_number+1}")
     if first==random_number: 
       print("You have guess correctly, WINNER WINNER CHICKEN DINNER")
       print ("it took you {} tries".format(tries))
@@ -24,6 +24,7 @@ while tries<8:
     else:
        if tries == 8:
         print (f"You ran out of tries and the number is {random_number}")
+        print ("it took you {} tries".format(tries))
 
 
 
